@@ -1,0 +1,312 @@
+.header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    background-size: contain;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+
+}
+
+nav {
+
+    display: flex;
+    padding: 50px 200px;
+    justify-content: space-between;
+}
+
+* {
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* header and navigation */
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.text-primary {
+    color: orangered;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.btn-hire_me {
+    background-color: orangered;
+    color: bisque;
+    height: 60px;
+    border-radius: 5px;
+    border: 0px;
+    font-weight: 800px;
+    font-size: 20px;
+    padding: 18px 35px;
+
+}
+
+.banner {
+    display: flex;
+    margin: 0px 50px 0px 200px;
+    align-items: center;
+}
+
+.banner-sub-title {
+    font-weight: 600px;
+    font-size: 40px;
+
+
+}
+
+.authar-name {
+    font-weight: 700px;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.banner-paragraph {
+
+    color: lightslategray;
+    font-size: 18px;
+    text-align: justify;
+
+}
+
+.btn-for-cv {
+    background-color: orangered;
+    color: bisque;
+    height: 60px;
+    border-radius: 5px;
+    border: 0px;
+    font-weight: 800px;
+    font-size: 20px;
+    padding: 18px 35px;
+    margin-top: 20px;
+
+}
+
+.btn-contact {
+    background-color: orangered;
+    color: bisque;
+    height: 60px;
+    border-radius: 5px;
+    border: 0px;
+    font-weight: 800px;
+    font-size: 20px;
+    padding: 18px 35px;
+    margin-top: 20px;
+}
+/* about me part */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
+    background: #FFF8F3;
+    border-radius: 10px;
+    margin-top: 130px;
+    padding: 130px 150px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.about-description {
+    color: darkcyan;
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+    font-size: 20px;
+    color: #757575;
+    font-weight: 700;
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+.whatIdo-container {
+    margin-top: 130px;
+
+}
+
+
+.skills-container {
+
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.skill-description {
+    color: #757575;
+
+}
+
+.whatido-section-title {
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* resume */
+.resume-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-content {
+
+    display: flex;
+    gap: 30px;
+}
+
+.resume .title {
+    font-size: 30px;
+    color: #474747;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+
+.resume .sub-title {
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    color: #757575;
+}
+
+.education {
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.experience {
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.resume-item {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.Download-cv-btn {
+    background-color: orangered;
+    color: bisque;
+    height: 60px;
+    border-radius: 5px;
+    border: 0px;
+    font-weight: 800px;
+    font-size: 20px;
+    padding: 18px 35px;
+    margin-top: 20px;
+}
+
+.download-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+/* contact-part */
+.contact {
+    display: flex;
+    gap: 120px;
+    background-color: bisque;
+    margin-top: 50px;
+    padding: 130px 200px;
+
+}
+
+.contact-title {
+    color: black;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.contact-description {
+    color: black;
+    margin-bottom: 20px;
+}
+
+.Contact-btn {
+    background-color: orangered;
+    color: bisque;
+    height: 60px;
+    border-radius: 5px;
+    border: 0px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 35px;
+    margin-top: 20px;
+
+}
+
+.contact input[type="text"],
+input[type="email"] {
+    margin-bottom: 24px;
+    height: 30px;
+    border: none;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.contact textarea{
+    margin-bottom: 24px;
+    height: 100px;
+    border: none;
+    width: 100%;
+    padding: 18px 30px;
+}
